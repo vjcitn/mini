@@ -1,0 +1,16 @@
+Package: mini
+Title: demonstrate NAMESPACE madness with GenomicRanges/Rcpp
+Description: demonstrate NAMESPACE madness with GenomicRanges/Rcpp
+Version: 0.0.0
+Author: Vince Carey
+Suggests: knitr
+Depends: R (>= 3.6.0)
+Imports: Rcpp, GenomicRanges, IRanges
+Maintainer: VJ Carey <stvjc@channing.harvard.edu>
+License: Artistic-2.0
+LazyLoad: yes
+LazyData: yes
+biocViews: variants
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
+Encoding: UTF-8
